@@ -1,34 +1,46 @@
 <html>
-  <head>
-    <title>Day 17 Solver</title>
-    <style>
-      .hidden {
-        display: none;
-      }
-      .green {
-        background-color: green;
-      }
-      .red {
-        background-color: red;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Advent of Code 2019 Day 17 Solver</h1>
-    <div id="error" class="hidden"></div>
-    <div id="submission">
-      <h2>Submit Your Map</h2>
-      <p>Enter your ASCII map here:</p>
-      <p><textarea id="map_input"></textarea></p>
-      <input id="submit_map" type="button" value="Submit"></input>
-    </div>
-    <div id="map" class="hidden">
-      <h2>Test Your Path</h2>
-      <p>Enter your path instructions below:</p>
-      <input id="path" type="text"></input>
-      <p>Start point: </p>
-      <p>Start direction: </p>
-    </div>
-    <script src="dist/index.js" type="module"></script>
-  </body>
+
+<head>
+  <title>Day 17 Solver</title>
+  <style>
+    .hidden {
+      display: none;
+    }
+
+    .green {
+      background-color: green;
+    }
+
+    .red {
+      background-color: red;
+    }
+
+    table {
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Advent of Code 2019 Day 17 Solver</h1>
+  <div id="error" class="hidden"></div>
+  <div id="submission">
+    <h2>Submit Your Map</h2>
+    <p>Enter your ASCII map here:</p>
+    <p><textarea id="map_input"></textarea></p>
+    <input id="submit_map" type="button" value="Submit"></input>
+  </div>
+  <div id="map" class="hidden">
+    <h2>Test Your Path</h2>
+    <p>Enter your path instructions below:</p>
+    <input id="path" type="text"></input>
+  </div>
+  <script src="dist/index.js" type="module"></script>
+</body>
+
 </html>
